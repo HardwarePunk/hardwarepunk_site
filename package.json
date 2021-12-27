@@ -1,0 +1,22 @@
+
+  "name": "hwpwiki",
+  "version": "1.0.0",
+  "description": "HardwarePunk Site",
+  "main": "build-tw",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardwarePunk/hardwarepunk_site.git"
+  },
+  "author": "Samantha Ripley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardwarePunk/hardwarepunk_site/issues"
+  },
+  "homepage": "https://github.com/HardwarePunk/hardwarepunk_site#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.2.1"
+  }
+}
