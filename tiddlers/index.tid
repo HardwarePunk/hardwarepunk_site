@@ -1,39 +1,18 @@
 created: 20200728102956586
 creator: Adithya_
 description: A static generator for TiddlyWiki. Inspired by JamStack.
-modified: 20211227033032307
+modified: 20211227081219005
 modifier: HardwarePunk
 name: Homepage
 published: 20210314001527357
-tags: $:/plugins/adithyab/tiddlyjam/page $:/plugins/adithyab/tiddlyjam/internals $:/plugins/adithyab/tiddlyjam/live
+tags: Home blog
 title: index
 type: text/vnd.tiddlywiki
 
-<section class="section mt-6">
-    <div class="container">
-        <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
-            <h1 class="title" style="font-size: 400%;">{{$:/SiteTitle}}</h1>
-            <div class="subtitle">
-                {{$:/SiteSubtitle}}
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="container mt-6">
-            <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
-                <$list filter="[tag[$:/plugins/adithyab/tiddlyjam/live]tag[blog]!sort[published]limit[5]]">
-                    {{||$:/plugins/adithyab/tiddlyjam/renderer/templates/blog_verbose}}
-                </$list>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="container mt-6">
-            <div class="column is-6-desktop is-offset-3-desktop is-8 is-offset-2">
-                <$list filter="[tag[$:/plugins/adithyab/tiddlyjam/live]tag[pinned]!sort[published]limit[5]]">
-                    {{||$:/plugins/adithyab/tiddlyjam/renderer/templates/blog_verbose}}
-                </$list>
-            </div>
-        </div>
-    </div>
-</section>
+Welcome to the Hardware Punk blog! I am Samantha Ripley, I'm an engineer, student, and retro computing enthusiast. I write here about projects I'm working on.
+
+If you're visiting for business inquiries, my email is Sam@HardwarePunk.com.
+
+If you'd like to check out what I'm currently working on or chat, visit my discord server at https://discord.gg/m4MEzgBw. Make sure you read the rules!
+
+This blog / wiki is made in TiddlyWiki. It's great for organizing project information and creating a collection of information. To view the searchable TiddlyWiki app, go to https://hardwarepunk.com/wiki

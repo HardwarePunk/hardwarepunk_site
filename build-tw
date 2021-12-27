@@ -4,6 +4,7 @@ rm -rf ./site/*
 
 tiddlywiki . --build
 
+mkdir .site/wiki
 mv ./output/* ./site/wiki
 
 tiddlywiki wikipath --rendertiddlers '[!is[system]]' $:/core/templates/static.tiddler.html static text/plain
