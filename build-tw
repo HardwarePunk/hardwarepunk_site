@@ -6,4 +6,4 @@ tiddlywiki . --build
 
 mv ./output/* ./site/
 
-echo "hardwarepunk.com" > ./docs/CNAME
+echo "hardwarepunk.com" > ./site/CNAME
