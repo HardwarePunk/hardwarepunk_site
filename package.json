@@ -1,5 +1,5 @@
-
-  "name": "hwpwiki",
+{
+  "name":"hwpwiki",
   "version": "1.0.0",
   "description": "HardwarePunk Site",
   "main": "build-tw",
