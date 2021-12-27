@@ -6,9 +6,9 @@ tiddlywiki . --build
 
 mv ./output/* ./site/wiki
 
-tiddlywiki --rendertiddlers [!is[system]] 
-$:/core/templates/static.tiddler.html static text/plain --rendertiddler 
-$:/core/templates/static.template.css static/static.css text/plain
+tiddlywiki wikipath --rendertiddlers '[!is[system]]' $:/core/templates/static.tiddler.html static text/plain
+tiddlywiki wikipath --rendertiddler $:/core/templates/static.template.html static.html text/plain
+tiddlywiki wikipath --rendertiddler $:/core/templates/static.template.css static/static.css text/plain
 
 mv ./output/* ./site
 
