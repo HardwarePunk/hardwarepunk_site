@@ -4,6 +4,10 @@ rm -rf ./site/*
 
 tiddlywiki . --build
 
-mv ./output/* ./site/
+mv ./output/* ./site/wiki
+
+tiddlywiki --rendertiddlers [!is[system]] 
+$:/core/templates/static.tiddler.html static text/plain --rendertiddler 
+$:/core/templates/static.template.css static/static.css text/plain
 
 echo "hardwarepunk.com" > ./site/CNAME
