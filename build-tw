@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm -rf ./site/*
+
+tiddlywiki . --build
+
+mv ./output/* ./site/
+
+echo "hardwarepunk.com" > ./docs/CNAME
