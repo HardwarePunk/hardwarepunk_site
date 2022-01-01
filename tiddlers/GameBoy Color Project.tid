@@ -1,0 +1,50 @@
+created: 20220101194251758
+modified: 20220101204453568
+tags: Journal
+title: GameBoy Color Project
+type: text/vnd.tiddlywiki
+
+For a long time I've been interested in retro consoles. My first handheld console growing up was the Gameboy Advance SP, and I played Mario Tennis and Pokemon Sapphire on it pretty much every free moment I had. A little later I got a Gameboy Color second hand from a friend with Pokemon Blue, which I also loved. What strikes me is I really enjoyed the limited palette and graphics of the older model.
+
+More recently I've been applying my 3D printing and computer repair skills to refurbishing older devices. I've seen a few people online, such as [[Zoë Wolfe|https://zoewolfe.gay/]], get into modifying Gameboy Colors and taking pictures with the Gameboy Camera. I love the pixelart aesthetic and the mods you can do really make the Gameboy a more accessible portable console.
+
+So, I bought some parts and a gameboy listed as "for parts or repair" off of ebay and got to work. My goals for this project were as follows:
+
+# Get a broken Gameboy back to functioning condition.
+# Clean the Gameboy so it doesn't look as used.
+# Replace the black buttons for white buttons
+# Replace the Gameboy display with a larger, backlit IPS display.
+
+[img[IMG_20220101_120218_917.jpg]][img[IMG_20220101_120226_175.jpg]]
+
+The handheld was pretty dirty. The rear cover was missing and the battery port was clearly the victim of some batteries being left in, with lots of corrosion leaking onto the board and corroding the contacts. There was some strands of dust and gunk hanging on the inside, and though I didn't get a good picture of it, the ports were filled with this weird red and white gunk, almost like the gameboy had gotten buried in clay at some point.
+
+First thing I did was open it up to take a look at the gunk.
+
+[img[IMG_20220101_121828_822.jpg]][img[IMG_20220101_121841_493.jpg]]
+
+There was sticky gunk all over the bottom of the motherboard, and in every nook and cranny of the rear cover. The rear case I knew I could take out and carefully wash with soap and water, but the motherboard is much more sensitive to water and that could cause problems. Instead, I put on some gloves and carefully scrubbed the motherboard with 99% IPA to get rid of the gunk. To clean out the ports I carefully soaked them with some 99% IPA and with some narrow tweezers very carefully removed the crud.
+
+I did notice that the contacts on the rear case were very, very gross. The spring for the top battery slot was corroded strongly at the base, and cleaning it would probably mean the spring coming apart. Thinking ahead, I removed the battery contacts. I removed the spring from the contact base and trimmed off the part that was corroded and falling apart, and soaked the rest of the contacts with isopropyl. I then reinserted the trimmed spring into the connector. This saved me from having to buy new contacts. If I was refurbishing this device for someone else, I would've likely bought replacement contacts, as my solution is very hacky and the spring sits at an awkward angle now.
+
+I knew I was going to replace the display, so I went ahead and removed that and cleaned the front case as well.
+
+[img[IMG_20220101_122731_247.jpg]][img[IMG_20220101_122737_078.jpg]][img[IMG_20220101_122745_566.jpg]]
+
+It was looking way better at this point, though in retrospect I wish I had paid a little more attention to the top of the rear case where the slot is. I'll likely go back and do another round of washing on that bit.
+
+I didn't have the tools to trim down the plastic for the larger display with me at this point as I was doing this while housesitting for a friend, so I decided to put the Gameboy back together without the display but with the new buttons.
+
+[img[IMG_20220101_123304_394.jpg]]
+
+Once I brought the project back home, I had plenty of time to work on replacing the display. The number one thing I had to do to make the display fit was trim the plastic shell. There's a bottom lip where the board and display for the Gameboy comfortable sits, but my display is larger and requires a bit more room. I trimmed the plastic lip and the window in the front of the shell. I unfortunately forgot to take pictures of the trimming process as I was also working on another project, but suffice to say it was messy and imperfect. Thankfully the black part of the glass covers all the imperfections. I tested the display and it worked, then installed it into the Gameboy.
+
+[img[IMG_20220101_123940_671.jpg]]
+
+It works! I messed around with the Gameboy for a bit and everything seems work just fine. I got a Gameboy Camera to mess around with, and I will be taking pictures with it soon.
+
+I'm super happy with how this turned out, and I've got an EZ Flash Junior on the way so I can play some Gameboy ROMS I've got backed up (dumped from cartridges I own, legally, of course). I love the larger backlit display on this and it makes it very easy to see what's going on in low light. I really recommend getting into the Gameboy modding scene if you like retro gaming and are into messing with hardware.
+
+In the future, I've got plans for the Gameboy Camera, including 3D printing a modification that allows you to attach Canon DSLR lenses. So stay tuned for that!
+
+Hardware Punk out.
