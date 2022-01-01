@@ -4,8 +4,9 @@ rm -rf ./site/*
 
 tiddlywiki . --build
 
-mkdir ./site/wiki
+rm ./output/static/index.html
+rm ./output/static/*.jpg.html
 mv ./output/static/* ./site
-mv ./output/* ./site/wiki
+mv ./output/* ./site
 
 echo "hardwarepunk.com" > ./site/CNAME
