@@ -1,0 +1,49 @@
+created: 20220122202513853
+modified: 20220122221759859
+tags: 
+title: The Framework Laptop
+type: text/vnd.tiddlywiki
+
+So I've been using a 2012 HP ProBook 5330m for all my work for a long time now. It's named Summoner, and it's gotten me through a lot of freelance IT and developer gigs. I've upgraded the Memory, replaced the HDD with an SSD to make it run a little bit faster, but there's only so much I can do to upgrade this old machine.
+
+With that in mind, I went off to find a laptop that fits my needs. The number one thing I care about, as someone who keeps tech around for a while and would rather repair than replace, is that the computer has to be repairable, parts have to be available, and it has to be reasonably upgradeable.
+
+In comes the Framework Laptop. 
+
+Now, this is not an advertisement because I don't do advertisements, but I do want to give you an idea of what I was thinking when I bought this. I got the Motherboard with the i7-1165G7, 1TB SSD, 1 16GB DDR4 memory, and the ports I wanted. But the lovely thing about this is that I bought it as a DIY kit. What that means is that if I already had a newer device that I was upgrading from with the correct memory and SSD that I liked, I could've just transferred those over. I could also put whatever SSD and memory in that I wanted. Plus, I got to do some of the assembly myself, and take a look inside.
+
+So let's take that look together and see what I saw.
+
+[img[OpenBox.jpg]]
+
+So the DIY kit comes with the power cable (If you bought it, you can also purchase a separate 60W USB C charge, but the one Framework sells is very nice) as well as the partially assembled laptop, and all the internals and ports that you purchased. It also comes with a little screwdriver and bits for you to open the laptop with.
+
+[img[InternalGoodies.jpg]]
+
+The small bag had my WiFi card, all the ports, my memory, and my SSD. To the right you see the power cable. You can also see my tiny ESD safe mat. I usually work on smaller electronics at home and I don't have a larger ESD mat, so this will have to do for now. This and myself is all properly grounded, so don't worry too much.
+
+[img[NotYetBuiltOutside.jpg]]
+
+A first look at the outside shows it looks a lot like modern computers. Keyboard is very nice and satisfying, even if I am used to clicky keyswitches by now. The number one thing to notice however is that there's these holes on the bottom where the ports should be. For the framework, you can actually buy and swap in your own ports.
+
+[img[Ports.jpg]]
+
+Next let's look at the internals.
+
+[img[Internals.jpg]]
+
+While this DIY edition did come pre-assembled mostly, pretty much every individual part is replaceable. Not only that, but the QR codes that you see in this picture go straight to Framework's webpage for that part, where you can purchase and look at replacement instructions. This makes finding the correct part very easy.
+
+I'm not going to go over how to install all the parts because that's very well covered on Framework's website. However, I can tell you how it runs.
+
+After installing memory, WiFi, storage, and ports, I make an Arch Linux bootable USB and spend about an hour installing Arch. No problem getting the ports set up even though they are swappable, they work immediately. After installing Gnome, the High DPI display actually works pretty great out of the box. Trackpad responsiveness and gestures are incredibly smooth, rivaling that of the Magic Trackpad from Apple. Even the fingerprint sensor works after a little configuration, which is mind blowing from my experience with Linux.
+
+Oh, and a very important step is to add stickers.
+
+[img[photo_2022-01-22_14-06-17.jpg]][img[photo_2022-01-22_14-06-27.jpg]]
+
+That's my completed setup! I've been using it for a while since I put it together and I love it. Of course, building it is half the fun, and the knowledge that I can easily repair the machine if something were to happen is a huge benefit.
+
+That's all for today, I may make another post specifically about the open firmware for making your own ports for this device! It could also be a fun project.
+
+Hardware Punk out.
